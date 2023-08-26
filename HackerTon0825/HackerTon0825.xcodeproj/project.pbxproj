@@ -7,13 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13BA02DBA67E5D2E45BD5075 /* Pods_HackerTon0825UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3C5370F5E2551D62F0BF91 /* Pods_HackerTon0825UITests.framework */; };
+		199E1730DCC26B346148A21A /* Pods_HackerTon0825.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655DC48B523C1662889332B9 /* Pods_HackerTon0825.framework */; };
+		227DF740E2AE7F8364F11D44 /* Pods_HackerTon0825Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9469A88B6AD35135BD2386F /* Pods_HackerTon0825Tests.framework */; };
 		9B2370552A98D5A60022C0C4 /* HackerTon0825App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370542A98D5A60022C0C4 /* HackerTon0825App.swift */; };
-		9B2370572A98D5A60022C0C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370562A98D5A60022C0C4 /* ContentView.swift */; };
 		9B2370592A98D5A80022C0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2370582A98D5A80022C0C4 /* Assets.xcassets */; };
 		9B23705C2A98D5A80022C0C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B23705B2A98D5A80022C0C4 /* Preview Assets.xcassets */; };
 		9B2370662A98D5A80022C0C4 /* HackerTon0825Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370652A98D5A80022C0C4 /* HackerTon0825Tests.swift */; };
 		9B2370702A98D5A80022C0C4 /* HackerTon0825UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23706F2A98D5A80022C0C4 /* HackerTon0825UITests.swift */; };
 		9B2370722A98D5A80022C0C4 /* HackerTon0825UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370712A98D5A80022C0C4 /* HackerTon0825UITestsLaunchTests.swift */; };
+		9B2370812A98D9790022C0C4 /* KakaoLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370802A98D9790022C0C4 /* KakaoLoginService.swift */; };
+		9B2370842A98DD160022C0C4 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370832A98DD160022C0C4 /* LoginScreen.swift */; };
+		9B2370882A98ED480022C0C4 /* SelectSportScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370872A98ED480022C0C4 /* SelectSportScreen.swift */; };
+		9B23708B2A98EF260022C0C4 /* GlobalExtnsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23708A2A98EF260022C0C4 /* GlobalExtnsion.swift */; };
+		9B2370902A98F38F0022C0C4 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B23708E2A98F38F0022C0C4 /* Pretendard-Bold.otf */; };
+		9B2370912A98F38F0022C0C4 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B23708F2A98F38F0022C0C4 /* Pretendard-SemiBold.otf */; };
+		9B2370932A98F5F70022C0C4 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B2370922A98F5F60022C0C4 /* Pretendard-Medium.otf */; };
+		9B2370942A98F5F70022C0C4 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B2370922A98F5F60022C0C4 /* Pretendard-Medium.otf */; };
+		9B2370952A98F5F70022C0C4 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B2370922A98F5F60022C0C4 /* Pretendard-Medium.otf */; };
+		9B2370972A98FC140022C0C4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370962A98FC140022C0C4 /* HomeScreen.swift */; };
+		9B2370982A98FC140022C0C4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370962A98FC140022C0C4 /* HomeScreen.swift */; };
+		9B2370992A98FC140022C0C4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370962A98FC140022C0C4 /* HomeScreen.swift */; };
+		9B23709C2A9901C20022C0C4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23709B2A9901C20022C0C4 /* SearchView.swift */; };
+		9B23709D2A9901C20022C0C4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23709B2A9901C20022C0C4 /* SearchView.swift */; };
+		9B23709E2A9901C20022C0C4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23709B2A9901C20022C0C4 /* SearchView.swift */; };
+		9B2370A02A9905430022C0C4 /* SportThumbAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23709F2A9905430022C0C4 /* SportThumbAView.swift */; };
+		9B2370A12A9905430022C0C4 /* SportThumbAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23709F2A9905430022C0C4 /* SportThumbAView.swift */; };
+		9B2370A22A9905430022C0C4 /* SportThumbAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B23709F2A9905430022C0C4 /* SportThumbAView.swift */; };
+		9B2370A42A9911090022C0C4 /* SportThumbBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370A32A9911090022C0C4 /* SportThumbBView.swift */; };
+		9B2370A52A9911090022C0C4 /* SportThumbBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370A32A9911090022C0C4 /* SportThumbBView.swift */; };
+		9B2370A62A9911090022C0C4 /* SportThumbBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370A32A9911090022C0C4 /* SportThumbBView.swift */; };
+		9B2370A92A991ACD0022C0C4 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370A82A991ACD0022C0C4 /* MainScene.swift */; };
+		9B2370AA2A991ACD0022C0C4 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370A82A991ACD0022C0C4 /* MainScene.swift */; };
+		9B2370AB2A991ACD0022C0C4 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370A82A991ACD0022C0C4 /* MainScene.swift */; };
+		9B2370AD2A9921680022C0C4 /* SportTumbCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370AC2A9921680022C0C4 /* SportTumbCView.swift */; };
+		9B2370AE2A9921680022C0C4 /* SportTumbCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370AC2A9921680022C0C4 /* SportTumbCView.swift */; };
+		9B2370AF2A9921680022C0C4 /* SportTumbCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370AC2A9921680022C0C4 /* SportTumbCView.swift */; };
+		9B2370B12A9925F20022C0C4 /* NotiBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370B02A9925F20022C0C4 /* NotiBellView.swift */; };
+		9B2370B22A9925F20022C0C4 /* NotiBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370B02A9925F20022C0C4 /* NotiBellView.swift */; };
+		9B2370B32A9925F20022C0C4 /* NotiBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370B02A9925F20022C0C4 /* NotiBellView.swift */; };
+		9B2370B62A99268F0022C0C4 /* CupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370B52A99268E0022C0C4 /* CupScreen.swift */; };
+		9B2370B72A99268F0022C0C4 /* CupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370B52A99268E0022C0C4 /* CupScreen.swift */; };
+		9B2370B82A99268F0022C0C4 /* CupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370B52A99268E0022C0C4 /* CupScreen.swift */; };
+		9B2370BA2A9936020022C0C4 /* SelectionItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370B92A9936020022C0C4 /* SelectionItemsView.swift */; };
+		9B2370BB2A9936020022C0C4 /* SelectionItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370B92A9936020022C0C4 /* SelectionItemsView.swift */; };
+		9B2370BC2A9936020022C0C4 /* SelectionItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370B92A9936020022C0C4 /* SelectionItemsView.swift */; };
+		9B2370BE2A9939B00022C0C4 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370BD2A9939B00022C0C4 /* HTTPService.swift */; };
+		9B2370BF2A9939B00022C0C4 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370BD2A9939B00022C0C4 /* HTTPService.swift */; };
+		9B2370C02A9939B00022C0C4 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370BD2A9939B00022C0C4 /* HTTPService.swift */; };
+		9B2370C22A993AE10022C0C4 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370C12A993AE10022C0C4 /* FileManager.swift */; };
+		9B2370C52A993F2E0022C0C4 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370C42A993F2E0022C0C4 /* ResponseModel.swift */; };
+		9B2370C72A993F8C0022C0C4 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370C62A993F8C0022C0C4 /* RequestModel.swift */; };
+		9B2370C92A9957BC0022C0C4 /* SportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370C82A9957BC0022C0C4 /* SportModel.swift */; };
+		9B2370CB2A9957FB0022C0C4 /* FirstScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370CA2A9957FB0022C0C4 /* FirstScene.swift */; };
+		9B2370CD2A995F940022C0C4 /* SportTumbDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2370CC2A995F940022C0C4 /* SportTumbDView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +81,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25F08989FA300C6C46295386 /* Pods-HackerTon0825-HackerTon0825UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTon0825-HackerTon0825UITests.release.xcconfig"; path = "Target Support Files/Pods-HackerTon0825-HackerTon0825UITests/Pods-HackerTon0825-HackerTon0825UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2FC791685BDAADC864DC5DCB /* Pods-HackerTon0825-HackerTon0825UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTon0825-HackerTon0825UITests.debug.xcconfig"; path = "Target Support Files/Pods-HackerTon0825-HackerTon0825UITests/Pods-HackerTon0825-HackerTon0825UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D3C5370F5E2551D62F0BF91 /* Pods_HackerTon0825UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerTon0825UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E922F255084AF16844C98E /* Pods-HackerTon0825UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTon0825UITests.release.xcconfig"; path = "Target Support Files/Pods-HackerTon0825UITests/Pods-HackerTon0825UITests.release.xcconfig"; sourceTree = "<group>"; };
+		6454B5398FDA0678F31CEB80 /* Pods-HackerTon0825.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTon0825.debug.xcconfig"; path = "Target Support Files/Pods-HackerTon0825/Pods-HackerTon0825.debug.xcconfig"; sourceTree = "<group>"; };
+		655DC48B523C1662889332B9 /* Pods_HackerTon0825.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerTon0825.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E74308FE073152D9544741 /* Pods-HackerTon0825Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTon0825Tests.debug.xcconfig"; path = "Target Support Files/Pods-HackerTon0825Tests/Pods-HackerTon0825Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B2370512A98D5A60022C0C4 /* HackerTon0825.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerTon0825.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2370542A98D5A60022C0C4 /* HackerTon0825App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTon0825App.swift; sourceTree = "<group>"; };
-		9B2370562A98D5A60022C0C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B2370582A98D5A80022C0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B23705B2A98D5A80022C0C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B2370612A98D5A80022C0C4 /* HackerTon0825Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerTon0825Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +97,35 @@
 		9B23706B2A98D5A80022C0C4 /* HackerTon0825UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerTon0825UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B23706F2A98D5A80022C0C4 /* HackerTon0825UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTon0825UITests.swift; sourceTree = "<group>"; };
 		9B2370712A98D5A80022C0C4 /* HackerTon0825UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTon0825UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B2370802A98D9790022C0C4 /* KakaoLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginService.swift; sourceTree = "<group>"; };
+		9B2370822A98D9B50022C0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9B2370832A98DD160022C0C4 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		9B2370872A98ED480022C0C4 /* SelectSportScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSportScreen.swift; sourceTree = "<group>"; };
+		9B23708A2A98EF260022C0C4 /* GlobalExtnsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalExtnsion.swift; sourceTree = "<group>"; };
+		9B23708D2A98F25D0022C0C4 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		9B23708E2A98F38F0022C0C4 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		9B23708F2A98F38F0022C0C4 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		9B2370922A98F5F60022C0C4 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		9B2370962A98FC140022C0C4 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		9B23709B2A9901C20022C0C4 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9B23709F2A9905430022C0C4 /* SportThumbAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportThumbAView.swift; sourceTree = "<group>"; };
+		9B2370A32A9911090022C0C4 /* SportThumbBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportThumbBView.swift; sourceTree = "<group>"; };
+		9B2370A82A991ACD0022C0C4 /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		9B2370AC2A9921680022C0C4 /* SportTumbCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTumbCView.swift; sourceTree = "<group>"; };
+		9B2370B02A9925F20022C0C4 /* NotiBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiBellView.swift; sourceTree = "<group>"; };
+		9B2370B52A99268E0022C0C4 /* CupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupScreen.swift; sourceTree = "<group>"; };
+		9B2370B92A9936020022C0C4 /* SelectionItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionItemsView.swift; sourceTree = "<group>"; };
+		9B2370BD2A9939B00022C0C4 /* HTTPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
+		9B2370C12A993AE10022C0C4 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		9B2370C42A993F2E0022C0C4 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		9B2370C62A993F8C0022C0C4 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		9B2370C82A9957BC0022C0C4 /* SportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportModel.swift; sourceTree = "<group>"; };
+		9B2370CA2A9957FB0022C0C4 /* FirstScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScene.swift; sourceTree = "<group>"; };
+		9B2370CC2A995F940022C0C4 /* SportTumbDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTumbDView.swift; sourceTree = "<group>"; };
+		9D877C703B9ED8D0BFFBE85D /* Pods-HackerTon0825.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTon0825.release.xcconfig"; path = "Target Support Files/Pods-HackerTon0825/Pods-HackerTon0825.release.xcconfig"; sourceTree = "<group>"; };
+		D2F5EEDD19D2FBDE3968A0C7 /* Pods-HackerTon0825UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTon0825UITests.debug.xcconfig"; path = "Target Support Files/Pods-HackerTon0825UITests/Pods-HackerTon0825UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9469A88B6AD35135BD2386F /* Pods_HackerTon0825Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerTon0825Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27333451352401D778CDE49 /* Pods-HackerTon0825Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTon0825Tests.release.xcconfig"; path = "Target Support Files/Pods-HackerTon0825Tests/Pods-HackerTon0825Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				199E1730DCC26B346148A21A /* Pods_HackerTon0825.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227DF740E2AE7F8364F11D44 /* Pods_HackerTon0825Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +149,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13BA02DBA67E5D2E45BD5075 /* Pods_HackerTon0825UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE8AE2FF61C67A2EFC3AFE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6454B5398FDA0678F31CEB80 /* Pods-HackerTon0825.debug.xcconfig */,
+				9D877C703B9ED8D0BFFBE85D /* Pods-HackerTon0825.release.xcconfig */,
+				2FC791685BDAADC864DC5DCB /* Pods-HackerTon0825-HackerTon0825UITests.debug.xcconfig */,
+				25F08989FA300C6C46295386 /* Pods-HackerTon0825-HackerTon0825UITests.release.xcconfig */,
+				74E74308FE073152D9544741 /* Pods-HackerTon0825Tests.debug.xcconfig */,
+				E27333451352401D778CDE49 /* Pods-HackerTon0825Tests.release.xcconfig */,
+				D2F5EEDD19D2FBDE3968A0C7 /* Pods-HackerTon0825UITests.debug.xcconfig */,
+				57E922F255084AF16844C98E /* Pods-HackerTon0825UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A343DD4462A17B298F5B279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				655DC48B523C1662889332B9 /* Pods_HackerTon0825.framework */,
+				D9469A88B6AD35135BD2386F /* Pods_HackerTon0825Tests.framework */,
+				3D3C5370F5E2551D62F0BF91 /* Pods_HackerTon0825UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B2370482A98D5A50022C0C4 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +188,8 @@
 				9B2370642A98D5A80022C0C4 /* HackerTon0825Tests */,
 				9B23706E2A98D5A80022C0C4 /* HackerTon0825UITests */,
 				9B2370522A98D5A60022C0C4 /* Products */,
+				1EE8AE2FF61C67A2EFC3AFE3 /* Pods */,
+				4A343DD4462A17B298F5B279 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +206,15 @@
 		9B2370532A98D5A60022C0C4 /* HackerTon0825 */ = {
 			isa = PBXGroup;
 			children = (
+				9B2370C32A993F210022C0C4 /* Model */,
+				9B23708C2A98F2320022C0C4 /* Fonts */,
+				9B2370822A98D9B50022C0C4 /* Info.plist */,
+				9B2370892A98EF180022C0C4 /* Extnsion */,
+				9B23707F2A98D9660022C0C4 /* Service */,
+				9B23707E2A98D9580022C0C4 /* Screen */,
+				9B2370A72A991A9F0022C0C4 /* MainScene */,
 				9B2370542A98D5A60022C0C4 /* HackerTon0825App.swift */,
-				9B2370562A98D5A60022C0C4 /* ContentView.swift */,
+				9B2370CA2A9957FB0022C0C4 /* FirstScene.swift */,
 				9B2370582A98D5A80022C0C4 /* Assets.xcassets */,
 				9B23705A2A98D5A80022C0C4 /* Preview Content */,
 			);
@@ -127,6 +246,103 @@
 			path = HackerTon0825UITests;
 			sourceTree = "<group>";
 		};
+		9B23707E2A98D9580022C0C4 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9B2370B42A9926800022C0C4 /* CupScreen */,
+				9B2370862A98ED040022C0C4 /* MainScreen */,
+				9B2370852A98ECE70022C0C4 /* LoginScreen */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		9B23707F2A98D9660022C0C4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9B2370802A98D9790022C0C4 /* KakaoLoginService.swift */,
+				9B2370BD2A9939B00022C0C4 /* HTTPService.swift */,
+				9B2370C12A993AE10022C0C4 /* FileManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9B2370852A98ECE70022C0C4 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9B2370832A98DD160022C0C4 /* LoginScreen.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		9B2370862A98ED040022C0C4 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9B23709A2A9901B80022C0C4 /* View */,
+				9B2370872A98ED480022C0C4 /* SelectSportScreen.swift */,
+				9B2370962A98FC140022C0C4 /* HomeScreen.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		9B2370892A98EF180022C0C4 /* Extnsion */ = {
+			isa = PBXGroup;
+			children = (
+				9B23708A2A98EF260022C0C4 /* GlobalExtnsion.swift */,
+			);
+			path = Extnsion;
+			sourceTree = "<group>";
+		};
+		9B23708C2A98F2320022C0C4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9B23708D2A98F25D0022C0C4 /* Pretendard-Regular.otf */,
+				9B23708E2A98F38F0022C0C4 /* Pretendard-Bold.otf */,
+				9B23708F2A98F38F0022C0C4 /* Pretendard-SemiBold.otf */,
+				9B2370922A98F5F60022C0C4 /* Pretendard-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9B23709A2A9901B80022C0C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B23709B2A9901C20022C0C4 /* SearchView.swift */,
+				9B23709F2A9905430022C0C4 /* SportThumbAView.swift */,
+				9B2370A32A9911090022C0C4 /* SportThumbBView.swift */,
+				9B2370AC2A9921680022C0C4 /* SportTumbCView.swift */,
+				9B2370B02A9925F20022C0C4 /* NotiBellView.swift */,
+				9B2370B92A9936020022C0C4 /* SelectionItemsView.swift */,
+				9B2370CC2A995F940022C0C4 /* SportTumbDView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B2370A72A991A9F0022C0C4 /* MainScene */ = {
+			isa = PBXGroup;
+			children = (
+				9B2370A82A991ACD0022C0C4 /* MainScene.swift */,
+			);
+			path = MainScene;
+			sourceTree = "<group>";
+		};
+		9B2370B42A9926800022C0C4 /* CupScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9B2370B52A99268E0022C0C4 /* CupScreen.swift */,
+			);
+			path = CupScreen;
+			sourceTree = "<group>";
+		};
+		9B2370C32A993F210022C0C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B2370C42A993F2E0022C0C4 /* ResponseModel.swift */,
+				9B2370C62A993F8C0022C0C4 /* RequestModel.swift */,
+				9B2370C82A9957BC0022C0C4 /* SportModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B2370752A98D5A80022C0C4 /* Build configuration list for PBXNativeTarget "HackerTon0825" */;
 			buildPhases = (
+				956C5D474A922E0523D1FF97 /* [CP] Check Pods Manifest.lock */,
 				9B23704D2A98D5A60022C0C4 /* Sources */,
 				9B23704E2A98D5A60022C0C4 /* Frameworks */,
 				9B23704F2A98D5A60022C0C4 /* Resources */,
+				63576282A731E129DC272530 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +369,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B2370782A98D5A80022C0C4 /* Build configuration list for PBXNativeTarget "HackerTon0825Tests" */;
 			buildPhases = (
+				2A7D547350F362F4AED5A383 /* [CP] Check Pods Manifest.lock */,
 				9B23705D2A98D5A80022C0C4 /* Sources */,
 				9B23705E2A98D5A80022C0C4 /* Frameworks */,
 				9B23705F2A98D5A80022C0C4 /* Resources */,
@@ -169,6 +388,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B23707B2A98D5A80022C0C4 /* Build configuration list for PBXNativeTarget "HackerTon0825UITests" */;
 			buildPhases = (
+				DD8E8551815A593E443FB8AE /* [CP] Check Pods Manifest.lock */,
 				9B2370672A98D5A80022C0C4 /* Sources */,
 				9B2370682A98D5A80022C0C4 /* Frameworks */,
 				9B2370692A98D5A80022C0C4 /* Resources */,
@@ -232,7 +452,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B23705C2A98D5A80022C0C4 /* Preview Assets.xcassets in Resources */,
+				9B2370932A98F5F70022C0C4 /* Pretendard-Medium.otf in Resources */,
+				9B2370902A98F38F0022C0C4 /* Pretendard-Bold.otf in Resources */,
 				9B2370592A98D5A80022C0C4 /* Assets.xcassets in Resources */,
+				9B2370912A98F38F0022C0C4 /* Pretendard-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +463,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2370942A98F5F70022C0C4 /* Pretendard-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,18 +471,124 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2370952A98F5F70022C0C4 /* Pretendard-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A7D547350F362F4AED5A383 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerTon0825Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63576282A731E129DC272530 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerTon0825/Pods-HackerTon0825-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerTon0825/Pods-HackerTon0825-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackerTon0825/Pods-HackerTon0825-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956C5D474A922E0523D1FF97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerTon0825-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8E8551815A593E443FB8AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerTon0825UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B23704D2A98D5A60022C0C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2370572A98D5A60022C0C4 /* ContentView.swift in Sources */,
+				9B2370C22A993AE10022C0C4 /* FileManager.swift in Sources */,
+				9B2370CB2A9957FB0022C0C4 /* FirstScene.swift in Sources */,
+				9B2370B12A9925F20022C0C4 /* NotiBellView.swift in Sources */,
+				9B2370CD2A995F940022C0C4 /* SportTumbDView.swift in Sources */,
+				9B2370AD2A9921680022C0C4 /* SportTumbCView.swift in Sources */,
+				9B2370C72A993F8C0022C0C4 /* RequestModel.swift in Sources */,
+				9B2370A92A991ACD0022C0C4 /* MainScene.swift in Sources */,
+				9B2370A02A9905430022C0C4 /* SportThumbAView.swift in Sources */,
+				9B23708B2A98EF260022C0C4 /* GlobalExtnsion.swift in Sources */,
+				9B2370972A98FC140022C0C4 /* HomeScreen.swift in Sources */,
+				9B2370BA2A9936020022C0C4 /* SelectionItemsView.swift in Sources */,
+				9B2370842A98DD160022C0C4 /* LoginScreen.swift in Sources */,
+				9B2370C52A993F2E0022C0C4 /* ResponseModel.swift in Sources */,
+				9B2370C92A9957BC0022C0C4 /* SportModel.swift in Sources */,
+				9B23709C2A9901C20022C0C4 /* SearchView.swift in Sources */,
+				9B2370882A98ED480022C0C4 /* SelectSportScreen.swift in Sources */,
+				9B2370B62A99268F0022C0C4 /* CupScreen.swift in Sources */,
+				9B2370812A98D9790022C0C4 /* KakaoLoginService.swift in Sources */,
+				9B2370BE2A9939B00022C0C4 /* HTTPService.swift in Sources */,
 				9B2370552A98D5A60022C0C4 /* HackerTon0825App.swift in Sources */,
+				9B2370A42A9911090022C0C4 /* SportThumbBView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +596,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2370A12A9905430022C0C4 /* SportThumbAView.swift in Sources */,
+				9B2370B22A9925F20022C0C4 /* NotiBellView.swift in Sources */,
+				9B2370BB2A9936020022C0C4 /* SelectionItemsView.swift in Sources */,
+				9B2370982A98FC140022C0C4 /* HomeScreen.swift in Sources */,
+				9B23709D2A9901C20022C0C4 /* SearchView.swift in Sources */,
+				9B2370BF2A9939B00022C0C4 /* HTTPService.swift in Sources */,
+				9B2370AA2A991ACD0022C0C4 /* MainScene.swift in Sources */,
+				9B2370B72A99268F0022C0C4 /* CupScreen.swift in Sources */,
 				9B2370662A98D5A80022C0C4 /* HackerTon0825Tests.swift in Sources */,
+				9B2370A52A9911090022C0C4 /* SportThumbBView.swift in Sources */,
+				9B2370AE2A9921680022C0C4 /* SportTumbCView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +614,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2370BC2A9936020022C0C4 /* SelectionItemsView.swift in Sources */,
+				9B23709E2A9901C20022C0C4 /* SearchView.swift in Sources */,
 				9B2370702A98D5A80022C0C4 /* HackerTon0825UITests.swift in Sources */,
+				9B2370B82A99268F0022C0C4 /* CupScreen.swift in Sources */,
+				9B2370A22A9905430022C0C4 /* SportThumbAView.swift in Sources */,
+				9B2370B32A9925F20022C0C4 /* NotiBellView.swift in Sources */,
+				9B2370AB2A991ACD0022C0C4 /* MainScene.swift in Sources */,
+				9B2370A62A9911090022C0C4 /* SportThumbBView.swift in Sources */,
+				9B2370AF2A9921680022C0C4 /* SportTumbCView.swift in Sources */,
+				9B2370C02A9939B00022C0C4 /* HTTPService.swift in Sources */,
 				9B2370722A98D5A80022C0C4 /* HackerTon0825UITestsLaunchTests.swift in Sources */,
+				9B2370992A98FC140022C0C4 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +761,7 @@
 		};
 		9B2370762A98D5A80022C0C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6454B5398FDA0678F31CEB80 /* Pods-HackerTon0825.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +771,8 @@
 				DEVELOPMENT_TEAM = XHRN62S9RK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HackerTon0825/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = LSApplicationQueriesSchemes;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,6 +793,7 @@
 		};
 		9B2370772A98D5A80022C0C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D877C703B9ED8D0BFFBE85D /* Pods-HackerTon0825.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +803,8 @@
 				DEVELOPMENT_TEAM = XHRN62S9RK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HackerTon0825/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = LSApplicationQueriesSchemes;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,6 +825,7 @@
 		};
 		9B2370792A98D5A80022C0C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E74308FE073152D9544741 /* Pods-HackerTon0825Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +846,7 @@
 		};
 		9B23707A2A98D5A80022C0C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27333451352401D778CDE49 /* Pods-HackerTon0825Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +867,7 @@
 		};
 		9B23707C2A98D5A80022C0C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F5EEDD19D2FBDE3968A0C7 /* Pods-HackerTon0825UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +886,7 @@
 		};
 		9B23707D2A98D5A80022C0C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E922F255084AF16844C98E /* Pods-HackerTon0825UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

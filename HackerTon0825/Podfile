@@ -1,18 +1,23 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '13.0'
 
 target 'HackerTon0825' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for HackerTon0825
-
+  pod 'KakaoSDKCommon'  # 필수 요소를 담은 공통 모듈
+  pod 'KakaoSDKAuth'  # 사용자 인증 
+  pod 'KakaoSDKUser'
+  pod 'Alamofire'
+		
   target 'HackerTon0825Tests' do
     inherit! :search_paths
     # Pods for testing
   end
 
   target 'HackerTon0825UITests' do
+    inherit! :search_paths
     # Pods for testing
   end
 

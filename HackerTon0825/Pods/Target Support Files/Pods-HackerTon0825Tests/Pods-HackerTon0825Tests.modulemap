@@ -1,0 +1,6 @@
+framework module Pods_HackerTon0825Tests {
+  umbrella header "Pods-HackerTon0825Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
