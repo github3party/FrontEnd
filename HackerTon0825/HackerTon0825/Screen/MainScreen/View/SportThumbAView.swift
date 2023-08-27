@@ -38,7 +38,7 @@ struct SportThumbAView: View {
                 HStack {
                     VStack(alignment: .leading, spacing: 5) {
                         
-                        Text("싸이클")
+                        Text(sportType.korName)
                             .font(.pretendard(12, weight: .bold))
                         HStack(spacing: 5) {
                             Image("calendar")
